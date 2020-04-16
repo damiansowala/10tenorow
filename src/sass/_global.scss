@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    @include trans;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.img-fluid {
+    width: 100% !important;
+    height: auto;
+}
+
+.btn {
+    border: none;
+
+    &-primary {
+        background-color: $accent;
+
+        &:hover {
+            background-color: $accent-hover;
+        }
+    }
+
+    &-secondary {
+        background-color: $light;
+
+        &:hover {
+            background-color: $light-hover;
+        }
+    }
+
+    &-dark {
+        background-color: $darker;
+
+        &:hover {
+            background-color: $darker-hover;
+        }
+    }
+}
+
+.bg-dark {
+    background-color: rgba(29, 29, 29, 0.6) !important;
+}
+
+.parallax-window {
+    display: block;
+    height: 50vh;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__100 {
+        height: 1000px;
+    }
+
+    h1 {
+        @include upper;
+        background-color: rgba(29, 29, 29, 1) !important;
+        clip-path: polygon(90% 0, 100% 10%, 95% 100%, 10% 100%, 0 90%, 5% 0);
+        padding: 50px 100px;
+        text-align: center;
+    }
+}
+
+.ticket {
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

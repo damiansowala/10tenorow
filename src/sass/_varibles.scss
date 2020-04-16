@@ -1,0 +1,125 @@
+/* ========================================================================================================================
+Colors
+======================================================================================================================== */
+
+$accent: #961b1b;
+$accent-hover: #961b1b;
+$accent-transparent: #961b1b;
+
+$light: #961b1b;
+$light-hover: #af0202;
+$light-transparent: #0a89ce20;
+
+$darker: #0b5c87;
+$darker-hover: #065580;
+
+$dark: #063047;
+$dark-hover: #02273b;
+
+$darkest: #02151f;
+$darkest-hover: #032233;
+
+$grey:#a8a8a9;
+
+$bg-decoration: rgb(240, 240, 240);
+
+$white: #fff;
+
+$danger-transparent: rgba(255, 192, 203, 0.281);
+
+
+/* ========================================================================================================================
+Global
+======================================================================================================================== */
+$radius: 5px;
+$radius-full: 50px;
+/* ========================================================================================================================
+Typography
+======================================================================================================================== */
+
+// base
+$text-color: black;
+$base-font-size: 16px;
+$base-font-weight: 400;
+$base-font-family: "Times New Roman",
+Times,
+serif;
+$base-line-height: 1.6;
+
+// heading
+$heading-font-family: "Times New Roman",
+Times,
+serif;
+$heading-font-weight: $base-font-weight;
+
+
+
+
+body {
+    color: $text-color;
+    font-size: $base-font-size;
+    font-family: $base-font-family;
+    font-weight: $base-font-weight;
+    line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato-Blod";
+}
+
+p,
+span,
+div,
+li,
+a {
+    font-size: $base-font-size;
+    font-family: "Lato-Regular";
+}
+
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
+}
+
+.h1,
+.h2 {
+    line-height: 1.1;
+}
+
+.h3,
+.h4 {
+    line-height: 1.3;
+}
+
+.h1 {
+    font-size: 400%;
+    letter-spacing: -2px;
+}
+
+.h2 {
+    font-size: 250%;
+    letter-spacing: -1px;
+}
+
+.h3 {
+    font-size: 200%;
+}
+
+.h4 {
+    font-size: 180%;
+}
+
+.h5 {
+    font-size: 130%;
+}

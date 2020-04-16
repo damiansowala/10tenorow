@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Font Awesome 5 Brands";
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url(fonts/fontawesome/fa-brands-400.eot);
+    src: url(fonts/fontawesome/fa-brands-400.eot) format("embedded-opentype"), url(fonts/fontawesome/fa-brands-400.woff2) format("woff2"), url(fonts/fontawesome/fa-brands-400.woff) format("woff"), url(fonts/fontawesome/fa-brands-400.ttf) format("truetype"), url(fonts/fontawesome/fa-brands-400.svg) format("svg");
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands"
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url(fonts/fontawesome/fa-regular-400.eot);
+    src: url(fonts/fontawesome/fa-regular-400.eot) format("embedded-opentype"), url(fonts/fontawesome/fa-regular-400.woff2) format("woff2"), url(fonts/fontawesome/fa-regular-400.woff) format("woff"), url(fonts/fontawesome/fa-regular-400.ttf) format("truetype"), url(fonts/fontawesome/fa-regular-400.svg) format("svg");
+}
+
+.far {
+    font-weight: 400
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url(fonts/fontawesome/fa-solid-900.eot);
+    src: url(fonts/fontawesome/fa-solid-900.eot) format("embedded-opentype"), url(fonts/fontawesome/fa-solid-900.woff2) format("woff2"), url(fonts/fontawesome/fa-solid-900.woff) format("woff"), url(fonts/fontawesome/fa-solid-900.ttf) format("truetype"), url(fonts/fontawesome/fa-solid-900.svg) format("svg")
+}
+
+.fa,
+.far,
+.fas {
+    font-family: "Font Awesome 5 Free"
+}
+
+.fa,
+.fas {
+    font-weight: 900
+}
+
+@font-face {
+    src: url(fonts/Lato/Lato-Bold.ttf);
+    font-family: "Lato-Blod";
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    src: url(fonts/Lato/Lato-Regular.ttf);
+    font-family: "Lato-Regular";
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    src: url(fonts/Raleway/Raleway-Regular.ttf);
+    font-family: "Raleway-Regular";
+    font-style: normal;
+    font-display: auto;
+}
